@@ -1,0 +1,72 @@
+/*Letters*/
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.25rem;
+}
+
+body {
+  background-color: #2E0D6C;
+  text-align: left;
+}
+
+/*Navbar*/
+ul {
+  padding-left: 1rem;
+  background: yellow;
+  font-weight: 900;
+}
+
+/*Opener*/
+.opener {
+  background: #0D6C2E;
+  color: white;
+  padding: 1%;
+  text-align: center;
+}
+
+/*Article Styling*/
+.articlebox {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border: black solid 0.2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0rem;
+}
+
+.articlebody {
+  font-size: 1rem;
+}
+
+/*After the main component*/
+.more {
+  color:white;
+  background-color: #0D6C2E;
+  font-style: bold;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+textarea {
+  color:black;
+}
+
+button {
+  font-size: larger;
+  background-color: darkred;
+}
+
+.about {
+  background-color: #6C2E0D;
+  text-align: Center;
+  padding: 1rem;
+  color:white;
+}

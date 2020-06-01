@@ -1,0 +1,39 @@
+{
+  "name": "bored-list",
+  "version": "1.0.0",
+  "description": "a parctice MERN stack application for bored people",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"node server.js\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && run build build --prefix client"
+  },
+  "engines": {
+    "node": "12.16.3",
+    "npm": "6.14.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marktovari/bored-list.git"
+  },
+  "author": "Mark Tovari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marktovari/bored-list/issues"
+  },
+  "homepage": "https://github.com/marktovari/bored-list#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13",
+    "serve": "^11.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

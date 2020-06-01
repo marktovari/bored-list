@@ -1,0 +1,4 @@
+Alfa 1: Managed to get the components of React working.
+The website could work if instead of a DB it had everything done in the state of App.js
+Alfa 2: React implemented
+Alfa 3: Connecting the Server-side: (Mongodb, API) and the Client-side (React, redux)
