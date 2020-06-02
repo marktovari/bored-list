@@ -5,12 +5,12 @@ export class Navbar extends Component {
     render() {
         return (
             <ul className="flex">
-                <Link to="/list">
+                {/* <Link to="/list"> */}
                     <li className="mr-6">Home</li>
-                </Link>
-                <Link to="/about">
+                {/* </Link> */}
+                {/* <Link to="/about"> */}
                     <li className="mr-6">About</li>
-                </Link>
+                {/* </Link> */}
             </ul>
         )
     }

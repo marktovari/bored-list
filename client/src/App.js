@@ -20,7 +20,7 @@ class App extends Component {
     return(
       /*Provider from React and Router from React-Dom first*/
       <Provider store={store}>
-        <Router>
+        {/* <Router>
         <Switch>
           <Route path="/list">
             <React.Fragment>
@@ -39,8 +39,13 @@ class App extends Component {
             </React.Fragment>
           </Route>
         </Switch>                
-        </Router>
-      </Provider>
+        </Router>*/}
+        <Title/>
+        <Opening/>
+        <Navbar/>
+        <ArticleList/>
+        <More/>
+      </Provider> 
     )
   };
 }
