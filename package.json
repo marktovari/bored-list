@@ -9,7 +9,8 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"node server.js\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && run build build --prefix client"
+    "oldscript": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && run build build --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "engines": {
     "node": "12.16.3",
