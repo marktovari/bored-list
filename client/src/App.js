@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return(
         <Switch>
-          <Route exact path="/list">
+          <Route exact path="/">
             <React.Fragment>
               <Title/>
               <Opening/>
