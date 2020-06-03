@@ -7,22 +7,17 @@ import Navbar from './components/Navbar'
 import Title from './components/Title'
 
 // Redux
-import { Provider } from 'react-redux'
-import store from './store'
 import About from './components/pages/About';
 // import AddArticle from './components/AddArticle';
 
 // React-router-Dom
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
   render() {
     return(
-      /*Provider from React and Router from React-Dom first*/
-      <Provider store={store}>
-        {/* <Router>
         <Switch>
-          <Route path="/list">
+          <Route exact path="/list">
             <React.Fragment>
               <Title/>
               <Opening/>
@@ -31,7 +26,7 @@ class App extends Component {
               <More/>
             </React.Fragment>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <React.Fragment>
               <Title/>
               <Navbar/>
@@ -39,13 +34,6 @@ class App extends Component {
             </React.Fragment>
           </Route>
         </Switch>                
-        </Router>*/}
-        <Title/>
-        <Opening/>
-        <Navbar/>
-        <ArticleList/>
-        <More/>
-      </Provider> 
     )
   };
 }

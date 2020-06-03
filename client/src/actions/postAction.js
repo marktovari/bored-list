@@ -1,4 +1,4 @@
-import {FETCH_POSTS, NEW_POST} from '../actions/types';
+import {FETCH_POSTS} from '../actions/types';
 // import axios from 'axios';
 
 // export const fetchPosts = () => {
