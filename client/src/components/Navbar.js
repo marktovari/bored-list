@@ -5,15 +5,13 @@ export class Navbar extends Component {
     render() {
         return (
             <ul className="flex">
-                    <Link to="/">
-                        <li className="mr-6">Home</li>
-                    </Link>
-                    <Link to="/about">
-                        <li className="mr-6">About</li>
-                    </Link>
+                <Link to="/">
+                    <li className="mr-6">Home</li>
+                </Link>
+                <Link to="/about">
+                    <li className="mr-6">About</li>
+                </Link>
             </ul>
-        )
-    }
-}
+)}};
 
 export default Navbar

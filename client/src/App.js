@@ -5,8 +5,7 @@ import Opening from './components/Opening';
 import More from './components/More'
 import Navbar from './components/Navbar'
 import Title from './components/Title'
-
-// Redux
+//Pages Import
 import About from './components/pages/About';
 // import AddArticle from './components/AddArticle';
 
@@ -33,7 +32,7 @@ class App extends Component {
               <About/>
             </React.Fragment>
           </Route>
-        </Switch>                
+        </Switch>
     )
   };
 }
