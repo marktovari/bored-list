@@ -5,9 +5,9 @@ import Opening from './components/Opening';
 import More from './components/More'
 import Navbar from './components/Navbar'
 import Title from './components/Title'
+// import AddArticle from './components/AddArticle';
 //Pages Import
 import About from './components/pages/About';
-// import AddArticle from './components/AddArticle';
 
 // React-router-Dom
 import { Switch, Route } from 'react-router-dom'
